@@ -7,6 +7,7 @@ body {
 .text-primary {
     color: #FD6E0A;
 }
+
 /* for button */
 .btn-primary {
     border-radius: 5px;
@@ -18,11 +19,13 @@ body {
     padding: 15px 35px;
 }
 
-/* nav related styles */
+/* nav related styles 
+ display: flex dile sob ek line e ase*/
 nav {
-    display: flex;
+    display: flex;  
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -41,8 +44,25 @@ nav li {
     list-style: none;
     margin-right: 50px;
 }
-
+/*  text decoration diye anchor tag er underline lekha off kore */
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* Header related style */
+.header {
+    background-color: #fff8f3;
+}
+
+/* banner related style */
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+ .banner  .profile-pic {
+    width: 500px;
+
 }
