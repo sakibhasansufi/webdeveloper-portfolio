@@ -54,7 +54,7 @@ nav a {
 /* Header related style */
 .header {
     background-color: #fff8f3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -97,13 +97,17 @@ nav a {
 }
 
 /* Main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section styles */
 .about {
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin: 130px 0;
+    margin: 100px 0;
 }
 .section-title{
     color: #181818;
