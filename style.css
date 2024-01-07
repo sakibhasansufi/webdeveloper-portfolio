@@ -121,4 +121,10 @@ main{
     text-align: center;
     font-size: 18px;
 }
-   
+.about-info-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-info{
+    text-align: center;
+}
